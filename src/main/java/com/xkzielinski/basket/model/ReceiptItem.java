@@ -1,4 +1,4 @@
-package com.xkzielinski.model;
+package com.xkzielinski.basket.model;
 
 import java.math.BigDecimal;
 

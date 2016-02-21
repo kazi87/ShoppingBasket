@@ -1,0 +1,12 @@
+com\xkzielinski\registry\ItemRegistry.class
+com\xkzielinski\prices\PapayasPromotion.class
+com\xkzielinski\Processor.class
+com\xkzielinski\model\Basket.class
+com\xkzielinski\prices\Promotion.class
+com\xkzielinski\model\Receipt.class
+com\xkzielinski\registry\ItemRegistryInMemory.class
+com\xkzielinski\prices\PriceCalculationProcessor.class
+com\xkzielinski\prices\NoPromotion.class
+com\xkzielinski\model\ReceiptItem.class
+com\xkzielinski\registry\ItemRegistryInMemory$1.class
+com\xkzielinski\model\Item.class

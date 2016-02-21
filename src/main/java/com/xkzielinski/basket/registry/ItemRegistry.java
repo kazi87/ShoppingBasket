@@ -1,6 +1,6 @@
-package com.xkzielinski.registry;
+package com.xkzielinski.basket.registry;
 
-import com.xkzielinski.model.Item;
+import com.xkzielinski.basket.model.Item;
 
 /**
  * Interface for available items.

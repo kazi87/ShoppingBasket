@@ -1,4 +1,4 @@
-package com.xkzielinski.prices;
+package com.xkzielinski.basket.prices;
 
 import java.math.BigDecimal;
 import java.math.MathContext;
@@ -6,8 +6,8 @@ import java.math.RoundingMode;
 import java.util.LinkedList;
 import java.util.List;
 
-import com.xkzielinski.model.Item;
-import com.xkzielinski.model.ReceiptItem;
+import com.xkzielinski.basket.model.Item;
+import com.xkzielinski.basket.model.ReceiptItem;
 
 /**
  * Simple implementation of "3 for 2" papaya promotion

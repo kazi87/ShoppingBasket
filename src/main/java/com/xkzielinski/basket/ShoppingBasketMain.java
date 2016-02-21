@@ -1,20 +1,20 @@
-package com.xkzielinski;
+package com.xkzielinski.basket;
 
 import java.io.IOException;
 import java.math.BigDecimal;
 
-import com.xkzielinski.model.Basket;
-import com.xkzielinski.model.Receipt;
-import com.xkzielinski.prices.PapayasPromotion;
-import com.xkzielinski.prices.PriceCalculationProcessor;
-import com.xkzielinski.registry.ItemRegistryInMemory;
+import com.xkzielinski.basket.model.Basket;
+import com.xkzielinski.basket.model.Receipt;
+import com.xkzielinski.basket.prices.PapayasPromotion;
+import com.xkzielinski.basket.prices.PriceCalculationProcessor;
+import com.xkzielinski.basket.registry.ItemRegistryInMemory;
 
 /**
  * Main application class.
  * Process a basket parsed from the program parameters in the format: itemName1 quantity1 itemName2 quantity2...
  * Displays summary  of the basket including "Papaya" promotion.
  */
-public class Processor {
+public class ShoppingBasketMain {
 
     public static void main(String[] s) {
         try {

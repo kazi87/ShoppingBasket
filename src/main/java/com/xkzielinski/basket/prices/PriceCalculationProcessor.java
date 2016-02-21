@@ -1,13 +1,13 @@
-package com.xkzielinski.prices;
+package com.xkzielinski.basket.prices;
 
 import java.util.List;
 import java.util.Map;
 
-import com.xkzielinski.model.Basket;
-import com.xkzielinski.model.Item;
-import com.xkzielinski.model.Receipt;
-import com.xkzielinski.model.ReceiptItem;
-import com.xkzielinski.registry.ItemRegistry;
+import com.xkzielinski.basket.model.Basket;
+import com.xkzielinski.basket.model.Item;
+import com.xkzielinski.basket.model.Receipt;
+import com.xkzielinski.basket.model.ReceiptItem;
+import com.xkzielinski.basket.registry.ItemRegistry;
 
 /**
  * The Receipt calculation processor.

@@ -1,4 +1,4 @@
-package com.xkzielinski.prices;
+package com.xkzielinski.basket.prices;
 
 
 import java.math.BigDecimal;
@@ -6,11 +6,11 @@ import java.math.RoundingMode;
 import java.util.LinkedList;
 import java.util.List;
 
-import com.xkzielinski.model.Basket;
-import com.xkzielinski.model.Item;
-import com.xkzielinski.model.Receipt;
-import com.xkzielinski.model.ReceiptItem;
-import com.xkzielinski.registry.ItemRegistry;
+import com.xkzielinski.basket.model.Basket;
+import com.xkzielinski.basket.model.Item;
+import com.xkzielinski.basket.model.Receipt;
+import com.xkzielinski.basket.model.ReceiptItem;
+import com.xkzielinski.basket.registry.ItemRegistry;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -20,7 +20,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * TODO: Add description...
  */
-public class PriceCalculationProcessorTest {
+public class PriceCalculationShoppingBasketMainTest {
 
     /**
      * return items always with fixed price 10!

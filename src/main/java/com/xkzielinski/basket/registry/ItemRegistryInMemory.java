@@ -1,10 +1,10 @@
-package com.xkzielinski.registry;
+package com.xkzielinski.basket.registry;
 
 import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.xkzielinski.model.Item;
+import com.xkzielinski.basket.model.Item;
 
 /**
  * Simple in-memory implementation of the ItemRegistry interface.

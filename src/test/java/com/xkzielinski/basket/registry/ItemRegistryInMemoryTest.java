@@ -1,6 +1,6 @@
-package com.xkzielinski.registry;
+package com.xkzielinski.basket.registry;
 
-import com.xkzielinski.model.Item;
+import com.xkzielinski.basket.model.Item;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -32,7 +32,7 @@ public class ItemRegistryInMemoryTest {
     public void expectExceptionIfItemDoesNotExistInRegistry() throws Exception {
         // given
         // when
-        Item item = testObj.getItemByName("unknown");
+        testObj.getItemByName("unknown");
         // then
     }
 

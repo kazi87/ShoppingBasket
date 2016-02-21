@@ -1,12 +1,12 @@
-package com.xkzielinski.prices;
+package com.xkzielinski.basket.prices;
 
 import java.math.BigDecimal;
 import java.math.MathContext;
 import java.math.RoundingMode;
 import java.util.List;
 
-import com.xkzielinski.model.Item;
-import com.xkzielinski.model.ReceiptItem;
+import com.xkzielinski.basket.model.Item;
+import com.xkzielinski.basket.model.ReceiptItem;
 import org.junit.Before;
 import org.junit.Test;
 
